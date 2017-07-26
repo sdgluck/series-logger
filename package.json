@@ -1,0 +1,24 @@
+{
+  "name": "series-logger",
+  "version": "1.0.0",
+  "description": "Log a series w/ spinner and op count",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "sdgluck/series-logger",
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.0.1",
+    "ora": "1.3.0"
+  },
+  "devDependencies": {
+    "console-patch": "1.0.0",
+    "get-stream": "3.0.0",
+    "jest": "20.0.4"
+  },
+  "jest": {
+    "testRegex": "test.js"
+  }
+}
